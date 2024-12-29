@@ -1,0 +1,276 @@
+.unionIcon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 0;
+}
+.you {
+  height: 13.9px;
+  width: 21px;
+  position: relative;
+  line-height: 14px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.userName {
+  width: 28px;
+  height: 13.9px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-5xs);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.separator {
+  width: 37px;
+  height: 15.8px;
+  position: relative;
+  font-size: var(--app-mweb-body-b2-medium-size);
+  line-height: 16px;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.unionParent,
+.userComparison {
+  height: 46.6px;
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.unionParent {
+  width: 44px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-9xs-9) var(--padding-9xs) var(--padding-smi);
+  position: relative;
+  flex-shrink: 0;
+}
+.userComparison {
+  width: 156px;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-93xl) 0 0;
+  z-index: 2;
+}
+.levelsComparisonChild {
+  width: 107px;
+  height: 13px;
+  position: absolute;
+  margin: 0 !important;
+  top: -12px;
+  right: -0.3px;
+  object-fit: cover;
+  z-index: 0;
+}
+.diabeticLevel {
+  width: 106.7px;
+  height: 4px;
+  position: relative;
+  background-color: var(--success-400);
+  transform: rotate(-180deg);
+  z-index: 1;
+}
+.normal {
+  text-decoration: none;
+  height: 14px;
+  width: 38px;
+  position: relative;
+  line-height: 14px;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.normalPrediabeticLevel {
+  width: 71.8px;
+  height: 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-15xl-8);
+  box-sizing: border-box;
+  z-index: 2;
+}
+.referenceLevel {
+  width: 83px;
+  position: absolute;
+  margin: 0 !important;
+  top: -30px;
+  right: 11.4px;
+  line-height: 14px;
+  color: var(--typography-extradark-green);
+  display: inline-block;
+  z-index: 3;
+}
+.levelsComparison {
+  height: 26px;
+  width: 106.7px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-5xs);
+  z-index: 0;
+}
+.levelsComparisonIcon {
+  height: 26px;
+  width: 1px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+.levelsComparisonItem {
+  width: 106.7px;
+  height: 4px;
+  position: relative;
+  background-color: var(--tertiary-400);
+  transform: rotate(-180deg);
+  z-index: 0;
+}
+.levelsComparisonInner {
+  width: 2px;
+  height: 12px;
+  position: absolute;
+  margin: 0 !important;
+  top: -4px;
+  right: 25.4px;
+  border-radius: var(--br-12xs);
+  background-color: var(--brand-primary);
+  z-index: 1;
+}
+.preDiabetic {
+  height: 14px;
+  width: 68px;
+  position: relative;
+  line-height: 14px;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.levelsComparison1,
+.preDiabeticWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 2;
+}
+.preDiabeticWrapper {
+  width: 86.8px;
+  height: 14px;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-lgi-8);
+  box-sizing: border-box;
+}
+.levelsComparison1 {
+  height: 26px;
+  width: 106.7px;
+  flex-direction: column;
+  position: relative;
+  gap: var(--gap-5xs);
+}
+.levelsComparisonIcon1 {
+  height: 26px;
+  width: 1px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  z-index: 3;
+}
+.rectangleDiv {
+  width: 106.7px;
+  height: 4px;
+  position: relative;
+  background-color: var(--error-400);
+  transform: rotate(-180deg);
+}
+.diabetic {
+  text-decoration: none;
+  height: 14px;
+  width: 44px;
+  position: relative;
+  line-height: 14px;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.diabeticWrapper {
+  width: 74.8px;
+  height: 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xl-8) 0 0;
+  box-sizing: border-box;
+}
+.levelsComparison2 {
+  height: 26px;
+  width: 106.7px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  z-index: 4;
+}
+.levelsComparison3,
+.levelsComparison4 {
+  position: absolute;
+  margin: 0 !important;
+  bottom: -18.3px;
+  line-height: 14px;
+  color: var(--typography-gray);
+  display: inline-block;
+}
+.levelsComparison3 {
+  width: 23px;
+  left: 96px;
+  z-index: 5;
+}
+.levelsComparison4 {
+  width: 25px;
+  right: 94px;
+  z-index: 6;
+}
+.referenceLevels,
+.userReference {
+  width: 322px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.referenceLevels {
+  height: 25.7px;
+  flex-direction: row;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-12xs-5);
+  flex-shrink: 0;
+  color: var(--typography-jet-gray);
+}
+.userReference {
+  height: 78.2px;
+  flex-direction: column;
+  gap: var(--gap-7xs-9);
+  text-align: center;
+  font-size: var(--app-mweb-labels-l1-size);
+  color: var(--surface-white);
+  font-family: var(--app-mweb-header-h4);
+}
